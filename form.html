@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project basic</title>
+  </head>
+  <body>
+    <center>
+      <nav>
+        <a href="./home.html">home</a>&nbsp
+        <a href="./about.html">about</a>&nbsp
+        <a href="./resume.html">resume</a>&nbsp
+        <a href="./gallery.html">gallery</a>&nbsp
+        <a href="./invitation.html">invitation</a>&nbsp
+        <a href="./form.html">form</a>&nbsp
+        <a href="./contact.html">contact</a>&nbsp
+      </nav>
+    </center>
+    <br />
+    <main>
+      <form action="./home.html">
+        <fieldset>
+          <!-- legend tag is used for outline border-covering -->
+          <legend><h1>This is shashi's form</h1></legend>
+
+          <label for="fname">Enter your full name:-</label> <input type="text" id="fname" placeholder="full name"/> <br />
+          <br />
+          <label for="pass">Enter your password:-</label> <input type="password" id="pass" placeholder="password"/> <br />
+          <br />
+          <label for="num">Enter your phone number:-</label> <input type="number" id="num" placeholder="number"/> <br />
+          <br />
+          <label for="mail">Enter your email id:-</label> <input type="email" id="mail" placeholder="mail"/> <br />
+          <br />
+          <label for="dob">Enter your d.o.b.:-</label> <input type="date" id="dob"/> <br />
+          <br />
+          <label for="color">Enter your favourite color :-</label> <input type="color" id="color"/> <br />
+          <br />
+          <label for="week">Enter your week :-</label> <input type="week" id="week"/> <br />
+          <br />
+          <label for="cun">choose your country :-</label>
+          <select id="cun">
+            <option>-- select --🔻</option>
+            <option>India</option>
+            <option>America</option>
+            <option>japan</option>
+            <option>china</option>
+            <option>london</option>
+            <option>russia</option>
+            <option>france</option>
+          </select>
+          <br /><br />
+          <label for="gen">choose your gender :-</label> male <input type="radio" name="1" /> female
+          <input type="radio" name="1" /> other <input type="radio" name="1" />
+          <br />
+          <br />
+          <label for="">choose your area of interest :-</label> C <input type="checkbox" /> cpp
+          <input type="checkbox" /> java <input type="checkbox" /> c#
+          <input type="checkbox" /> php <input type="checkbox" /> js
+          <input type="checkbox" /> <br />
+          <br />
+          <label for="">upload your file :-</label> <input type="file" /> <br />
+          <br />
+          <!-- if you want to upload a image then you use file type and add a attribute {accept="image/*}" -->
+          <label for="">upload your image :-</label> <input type="file" accept="image/*" /> <br />
+          <br /><button value="reset">Reset</button>  &nbsp;
+          <button value="submit">Submit</button>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
