@@ -8,5 +8,5 @@
 *here i create, my resume*
 ### gallery file
 *here i create a gallery*
-### invetation file 
-*here, i design a invetation card*
+### invitation file 
+*here, i design a invitation card*
